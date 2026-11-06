@@ -10,7 +10,7 @@ app = FastAPI(title="API Clube Decoração")
 # 1. Configuração de CORS (Segurança para permitir requisições do seu Front-end)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Em produção, substitua pelo seu domínio (ex: "https://meusite.com")
+    allow_origins=["https://brunoabreulab.github.io"], 
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],

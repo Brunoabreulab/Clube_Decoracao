@@ -288,7 +288,7 @@ async function handleFinalCheckout(e) {
   };
 
   try {
-    const response = await fetch('http://127.0.0.1:8000/api/checkout', {
+    const response = await fetch('https://api-clube-decoracao.onrender.com/api/checkout', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)

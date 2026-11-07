@@ -297,7 +297,7 @@ async function handleFinalCheckout(e) {
     const result = await response.json();
 
     if (response.ok && result.sucesso) {
-      alert(`Sucesso! Pedido criado com sucesso.`);
+      alert(`Sucesso! Pedido realizado com sucesso.`);
       cart = [];
       updateCartUI();
       document.getElementById('checkout-form').reset();

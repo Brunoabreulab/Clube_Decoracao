@@ -7,12 +7,6 @@ const availableSizes = [
 ];
 
 const products = [
-  { id: 1, title: 'Amar Navios', category: 'minimalista', imageSrc: 'imagens/quadro-decorativo (1).png' },
-  { id: 2, title: 'Bauhaus - Elegância Listrada', category: 'design', imageSrc: 'imagens/quadro-decorativo.png' },
-  { id: 3, title: 'Jazz Abstrato', category: 'abstrato', imageSrc: 'imagens/quadro-decorativo (2).png' },
-  { id: 4, title: 'Juntos', category: 'minimalista', imageSrc: 'imagens/quadro-decorativo (3).png' },
-  { id: 5, title: 'Abstrato Lua', category: 'abstrato', imageSrc: 'imagens/quadro-decorativo (4).png' },
-  { id: 6, title: 'Tecido Ondulado', category: 'design', imageSrc: 'imagens/quadro-decorativo (5).png' },
   { id: 7, title: 'Quadro A', category: 'design', imageSrc: 'imagens/WhatsApp Image 2026-10-12 at 09.59.30.jpeg' },
   { id: 8, title: 'Quadro B', category: 'design', imageSrc: 'imagens/WhatsApp Image 2026-10-12 at 09.59.32.jpeg' },
   { id: 9, title: 'Quadro C', category: 'design', imageSrc: 'imagens/WhatsApp Image 2026-10-12 at 09.59.32fw.jpeg' },
